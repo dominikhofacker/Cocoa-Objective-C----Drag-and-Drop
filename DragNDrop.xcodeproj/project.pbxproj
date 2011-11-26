@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D930D89A14814B4000BE097D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D930D89914814B4000BE097D /* Cocoa.framework */; };
+		D930D8A414814B4000BE097D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D930D8A214814B4000BE097D /* InfoPlist.strings */; };
+		D930D8A614814B4000BE097D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D930D8A514814B4000BE097D /* main.m */; };
+		D930D8AA14814B4000BE097D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D930D8A814814B4000BE097D /* Credits.rtf */; };
+		D930D8AD14814B4000BE097D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D930D8AC14814B4000BE097D /* AppDelegate.m */; };
+		D930D8B014814B4000BE097D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D930D8AE14814B4000BE097D /* MainMenu.xib */; };
+		D930D8B814814B4100BE097D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D930D8B714814B4100BE097D /* SenTestingKit.framework */; };
+		D930D8B914814B4100BE097D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D930D89914814B4000BE097D /* Cocoa.framework */; };
+		D930D8C114814B4100BE097D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D930D8BF14814B4100BE097D /* InfoPlist.strings */; };
+		D930D8C414814B4100BE097D /* DragNDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D930D8C314814B4100BE097D /* DragNDropTests.m */; };
+		D930D8CE14814B7100BE097D /* DropImageHere.png in Resources */ = {isa = PBXBuildFile; fileRef = D930D8CD14814B7100BE097D /* DropImageHere.png */; };
+		D930D8D114814BB500BE097D /* DropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D930D8D014814BB500BE097D /* DropImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D930D8BA14814B4100BE097D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D930D88C14814B4000BE097D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D930D89414814B4000BE097D;
+			remoteInfo = DragNDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D930D89514814B4000BE097D /* DragNDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragNDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D930D89914814B4000BE097D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D930D89C14814B4000BE097D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D930D89D14814B4000BE097D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D930D89E14814B4000BE097D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D930D8A114814B4000BE097D /* DragNDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragNDrop-Info.plist"; sourceTree = "<group>"; };
+		D930D8A314814B4000BE097D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D930D8A514814B4000BE097D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D930D8A714814B4000BE097D /* DragNDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DragNDrop-Prefix.pch"; sourceTree = "<group>"; };
+		D930D8A914814B4000BE097D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D930D8AB14814B4000BE097D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D930D8AC14814B4000BE097D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D930D8AF14814B4000BE097D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D930D8B614814B4100BE097D /* DragNDropTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragNDropTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D930D8B714814B4100BE097D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D930D8BE14814B4100BE097D /* DragNDropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragNDropTests-Info.plist"; sourceTree = "<group>"; };
+		D930D8C014814B4100BE097D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D930D8C214814B4100BE097D /* DragNDropTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragNDropTests.h; sourceTree = "<group>"; };
+		D930D8C314814B4100BE097D /* DragNDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragNDropTests.m; sourceTree = "<group>"; };
+		D930D8CD14814B7100BE097D /* DropImageHere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DropImageHere.png; sourceTree = "<group>"; };
+		D930D8CF14814BB500BE097D /* DropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropImageView.h; sourceTree = "<group>"; };
+		D930D8D014814BB500BE097D /* DropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D930D89214814B4000BE097D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D930D89A14814B4000BE097D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D930D8B214814B4100BE097D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D930D8B814814B4100BE097D /* SenTestingKit.framework in Frameworks */,
+				D930D8B914814B4100BE097D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D930D88A14814B4000BE097D = {
+			isa = PBXGroup;
+			children = (
+				D930D89F14814B4000BE097D /* DragNDrop */,
+				D930D8BC14814B4100BE097D /* DragNDropTests */,
+				D930D89814814B4000BE097D /* Frameworks */,
+				D930D89614814B4000BE097D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D930D89614814B4000BE097D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D930D89514814B4000BE097D /* DragNDrop.app */,
+				D930D8B614814B4100BE097D /* DragNDropTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D930D89814814B4000BE097D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D930D89914814B4000BE097D /* Cocoa.framework */,
+				D930D8B714814B4100BE097D /* SenTestingKit.framework */,
+				D930D89B14814B4000BE097D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D930D89B14814B4000BE097D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D930D89C14814B4000BE097D /* AppKit.framework */,
+				D930D89D14814B4000BE097D /* CoreData.framework */,
+				D930D89E14814B4000BE097D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D930D89F14814B4000BE097D /* DragNDrop */ = {
+			isa = PBXGroup;
+			children = (
+				D930D8AB14814B4000BE097D /* AppDelegate.h */,
+				D930D8AC14814B4000BE097D /* AppDelegate.m */,
+				D930D8CF14814BB500BE097D /* DropImageView.h */,
+				D930D8D014814BB500BE097D /* DropImageView.m */,
+				D930D8AE14814B4000BE097D /* MainMenu.xib */,
+				D930D8A014814B4000BE097D /* Supporting Files */,
+			);
+			path = DragNDrop;
+			sourceTree = "<group>";
+		};
+		D930D8A014814B4000BE097D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D930D8CD14814B7100BE097D /* DropImageHere.png */,
+				D930D8A114814B4000BE097D /* DragNDrop-Info.plist */,
+				D930D8A214814B4000BE097D /* InfoPlist.strings */,
+				D930D8A514814B4000BE097D /* main.m */,
+				D930D8A714814B4000BE097D /* DragNDrop-Prefix.pch */,
+				D930D8A814814B4000BE097D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D930D8BC14814B4100BE097D /* DragNDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				D930D8C214814B4100BE097D /* DragNDropTests.h */,
+				D930D8C314814B4100BE097D /* DragNDropTests.m */,
+				D930D8BD14814B4100BE097D /* Supporting Files */,
+			);
+			path = DragNDropTests;
+			sourceTree = "<group>";
+		};
+		D930D8BD14814B4100BE097D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D930D8BE14814B4100BE097D /* DragNDropTests-Info.plist */,
+				D930D8BF14814B4100BE097D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D930D89414814B4000BE097D /* DragNDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D930D8C714814B4100BE097D /* Build configuration list for PBXNativeTarget "DragNDrop" */;
+			buildPhases = (
+				D930D89114814B4000BE097D /* Sources */,
+				D930D89214814B4000BE097D /* Frameworks */,
+				D930D89314814B4000BE097D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragNDrop;
+			productName = DragNDrop;
+			productReference = D930D89514814B4000BE097D /* DragNDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D930D8B514814B4100BE097D /* DragNDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D930D8CA14814B4100BE097D /* Build configuration list for PBXNativeTarget "DragNDropTests" */;
+			buildPhases = (
+				D930D8B114814B4100BE097D /* Sources */,
+				D930D8B214814B4100BE097D /* Frameworks */,
+				D930D8B314814B4100BE097D /* Resources */,
+				D930D8B414814B4100BE097D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D930D8BB14814B4100BE097D /* PBXTargetDependency */,
+			);
+			name = DragNDropTests;
+			productName = DragNDropTests;
+			productReference = D930D8B614814B4100BE097D /* DragNDropTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D930D88C14814B4000BE097D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = CCoding;
+			};
+			buildConfigurationList = D930D88F14814B4000BE097D /* Build configuration list for PBXProject "DragNDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D930D88A14814B4000BE097D;
+			productRefGroup = D930D89614814B4000BE097D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D930D89414814B4000BE097D /* DragNDrop */,
+				D930D8B514814B4100BE097D /* DragNDropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D930D89314814B4000BE097D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D930D8A414814B4000BE097D /* InfoPlist.strings in Resources */,
+				D930D8AA14814B4000BE097D /* Credits.rtf in Resources */,
+				D930D8B014814B4000BE097D /* MainMenu.xib in Resources */,
+				D930D8CE14814B7100BE097D /* DropImageHere.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D930D8B314814B4100BE097D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D930D8C114814B4100BE097D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D930D8B414814B4100BE097D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D930D89114814B4000BE097D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D930D8A614814B4000BE097D /* main.m in Sources */,
+				D930D8AD14814B4000BE097D /* AppDelegate.m in Sources */,
+				D930D8D114814BB500BE097D /* DropImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D930D8B114814B4100BE097D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D930D8C414814B4100BE097D /* DragNDropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D930D8BB14814B4100BE097D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D930D89414814B4000BE097D /* DragNDrop */;
+			targetProxy = D930D8BA14814B4100BE097D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D930D8A214814B4000BE097D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D930D8A314814B4000BE097D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D930D8A814814B4000BE097D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D930D8A914814B4000BE097D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D930D8AE14814B4000BE097D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D930D8AF14814B4000BE097D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D930D8BF14814B4100BE097D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D930D8C014814B4100BE097D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D930D8C514814B4100BE097D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D930D8C614814B4100BE097D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D930D8C814814B4100BE097D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragNDrop/DragNDrop-Prefix.pch";
+				INFOPLIST_FILE = "DragNDrop/DragNDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D930D8C914814B4100BE097D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragNDrop/DragNDrop-Prefix.pch";
+				INFOPLIST_FILE = "DragNDrop/DragNDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D930D8CB14814B4100BE097D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DragNDrop.app/Contents/MacOS/DragNDrop";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragNDrop/DragNDrop-Prefix.pch";
+				INFOPLIST_FILE = "DragNDropTests/DragNDropTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D930D8CC14814B4100BE097D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DragNDrop.app/Contents/MacOS/DragNDrop";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragNDrop/DragNDrop-Prefix.pch";
+				INFOPLIST_FILE = "DragNDropTests/DragNDropTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D930D88F14814B4000BE097D /* Build configuration list for PBXProject "DragNDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D930D8C514814B4100BE097D /* Debug */,
+				D930D8C614814B4100BE097D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D930D8C714814B4100BE097D /* Build configuration list for PBXNativeTarget "DragNDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D930D8C814814B4100BE097D /* Debug */,
+				D930D8C914814B4100BE097D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D930D8CA14814B4100BE097D /* Build configuration list for PBXNativeTarget "DragNDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D930D8CB14814B4100BE097D /* Debug */,
+				D930D8CC14814B4100BE097D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D930D88C14814B4000BE097D /* Project object */;
+}
